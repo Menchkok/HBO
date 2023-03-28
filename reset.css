@@ -26,4 +26,14 @@ button {
 a {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+button {
+  color: #FFFFFF;
 }/*# sourceMappingURL=reset.css.map */

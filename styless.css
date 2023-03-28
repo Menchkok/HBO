@@ -1,1 +1,45 @@
-/*# sourceMappingURL=styless.css.map */
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 320px 25.44px 324px;
+  align-items: center;
+}
+.header-button {
+  border-radius: 12px;
+  width: 121px;
+  height: 40px;
+  font-size: 15px;
+  background-color: #0059C1;
+  font-weight: 700;
+}
+
+.logo {
+  width: 100px;
+  height: 40.56px;
+}
+
+.menu {
+  display: flex;
+  -moz-column-gap: 115px;
+       column-gap: 115px;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.menu_left {
+  display: flex;
+  -moz-column-gap: 43px;
+       column-gap: 43px;
+}
+
+.menu_right {
+  display: flex;
+  -moz-column-gap: 59px;
+       column-gap: 59px;
+}/*# sourceMappingURL=styless.css.map */

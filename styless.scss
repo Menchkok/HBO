@@ -1,0 +1,46 @@
+@import "colors.scss";
+@import "styles/mixins.scss";
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 320px 25.44px 324px;
+    align-items: center;
+    &-button{
+        border-radius: 12px;
+        width: 121px;
+        height: 40px;
+        font-size:15px;
+        background-color: $blue;
+        font-weight: 700;
+    }
+    
+}
+.logo{
+    width: 100px;
+    height: 40.56px;
+}
+.menu{
+    display: flex;
+    column-gap:115px;
+    
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+.menu_left{
+    display: flex;
+    column-gap:43px;
+    
+}
+.menu_right{
+    display: flex;
+    column-gap:59px;
+}
