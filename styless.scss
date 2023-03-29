@@ -4,6 +4,7 @@
     max-width: 1920px;
     margin: 0 auto;
     
+    
 }
 
 .header{
@@ -21,6 +22,7 @@
     }
     
 }
+
 .logo{
     width: 100px;
     height: 40.56px;
@@ -43,4 +45,39 @@
 .menu_right{
     display: flex;
     column-gap:59px;
+}
+
+.hero{
+    padding: 0px 320px 0px 324px;
+    text-align: center;
+    
+}
+.slider-item__content{
+    margin-top: -290px;
+}
+
+.silder-item__slider{
+    width: 500px;
+    height: 1px;
+    margin-top: 24px;
+    margin-left: 380px;
+    opacity: 50%;
+    background:gray;
+    &:hover{
+        background-color:$orange;
+        opacity: 50%;
+        width: 100px;
+        
+    }
+}
+
+.item__btn{
+    width: 198px;
+    margin-top: 24px;
+    &:hover{
+        border-radius:50px;
+        background-color:$orange;
+        border:solid 2px white;
+    }
+
 }
