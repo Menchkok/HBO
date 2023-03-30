@@ -75,4 +75,50 @@
   border-radius: 50px;
   background-color: #E3B100;
   border: solid 2px white;
+}
+
+.main {
+  margin-top: 49.5px;
+  margin-left: 324px;
+}
+
+.main-slider__img {
+  display: flex;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+}
+
+.main-slider__img > img {
+  border-radius: 20px;
+}
+
+.footer {
+  padding: 81px 320px 0px 324px;
+}
+
+.footer-slider__img img {
+  width: 502px;
+  height: 296px;
+  margin-top: 0px;
+}
+
+.footer-slider__subscription-one {
+  margin-left: 377px;
+  margin-top: 24px;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.footer-slider__subscription-two {
+  margin-left: 0px;
+  margin-top: 24px;
+  opacity: 0.1;
+  position: absolute;
+}
+
+.footer-slider__subscription-three {
+  margin-left: 762px;
+  margin-top: 24px;
+  opacity: 0.1;
+  position: absolute;
 }/*# sourceMappingURL=styless.css.map */
