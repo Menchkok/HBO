@@ -1,12 +1,12 @@
 .container {
   max-width: 1920px;
-  margin: 0 auto;
+  max-height: 1550px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 24px 320px 25.44px 324px;
+  margin: 24px 304px 26px 324px;
   align-items: center;
 }
 .header-button {
@@ -36,28 +36,32 @@
   display: flex;
   -moz-column-gap: 43px;
        column-gap: 43px;
+  font-size: 13px;
+  opacity: 75%;
 }
 
 .menu_right {
   display: flex;
   -moz-column-gap: 59px;
        column-gap: 59px;
+  font-size: 13px;
+  opacity: 75%;
 }
 
 .hero {
-  padding: 0px 320px 0px 324px;
+  margin: 0px 304px 0px 324px;
   text-align: center;
 }
 
 .slider-item__content {
-  margin-top: -290px;
+  margin-top: -260px;
 }
 
 .silder-item__slider {
   width: 500px;
   height: 1px;
-  margin-top: 24px;
-  margin-left: 380px;
+  margin-top: 26px;
+  margin-left: 386px;
   opacity: 50%;
   background: gray;
 }
@@ -69,17 +73,17 @@
 
 .item__btn {
   width: 198px;
-  margin-top: 24px;
+  margin-top: 19px;
 }
 .item__btn:hover {
   border-radius: 50px;
   background-color: #E3B100;
-  border: solid 2px white;
+  outline: solid 2px white;
 }
 
 .main {
-  margin-top: 49.5px;
-  margin-left: 324px;
+  margin-top: 44px;
+  margin-left: 323px;
 }
 
 .main-slider__img {
@@ -88,8 +92,41 @@
        column-gap: 24px;
 }
 
-.main-slider__img > img {
-  border-radius: 20px;
+.main-slider__img > a {
+  width: 210px;
+  height: 300px;
+  border-radius: 12px;
+}
+.main-slider__img > a:hover {
+  background-image: url("./images-main-second/hover.png");
+}
+
+.btn-haus_of_dracon {
+  background-image: url("./images-main-second/image 3.png");
+}
+
+.btn-got {
+  background-image: url("./images-main-second/item.png");
+}
+
+.btn-true_detective {
+  background-image: url("./images-main-second/image 3 (4).png");
+}
+
+.btn-silicon_valley {
+  background-image: url("./images-main-second/image 3 (3).png");
+}
+
+.btn-peacemaker {
+  background-image: url("./images-main-second/image 3 (2).png");
+}
+
+.btn-mare_easttown {
+  background-image: url("./images-main-second/image 3 (1).png");
+}
+
+.btn-haus_of_dracon {
+  background-image: url("./images-main-second/image 3.png");
 }
 
 .footer {
