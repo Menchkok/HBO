@@ -17,6 +17,11 @@
   background-color: #0059C1;
   font-weight: 700;
 }
+.header-button:hover {
+  background: #E3B100;
+  outline: 2px solid #0059C1;
+  color: #000000;
+}
 
 .logo {
   width: 100px;

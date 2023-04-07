@@ -12,9 +12,9 @@
     <title>WebSitePageTwo</title>
 </head>
 <body>
-    <section class="section">
+    <div class="container">
         <header class="header">
-            <a href="/">
+            <a href="index.html">
                 <img src="./images-header/img-logo.png" alt="" class="logo">
             </a>
             <nav>
@@ -29,9 +29,41 @@
                     </ul>
                 </ul>
             </nav>
-            <button class="header-button">SIGN IN</button>
+            <a href="indexTwoPage.html"><button class="header-button">SIGN IN</button></a>
         </header>
- 
-    </section>
+    </div>
+    <div class="container_signup">
+        <h1>SIGN UP</h1>
+        <h3>Choose your HBO Max plan</h3>
+        <div class="container_select_subscriptions">
+            <div class="select_montly">
+                <h2>Monthly</h2>
+                <p>71.99$/year</p>
+                <p>You can opt out at any time.</p>
+                <a href=""><button>Choose</button></a>
+            </div>
+            <div class="select_annal">
+                <h2>Annual</h2>
+                <p>7.99$/mo</p>
+                <p>If you pay for 12 months in advance, this corresponds to a price of only PLN 5.99/month.</p>
+                <a href=""><button>Choose</button></a>
+            </div>
+            
+        </div>
+        <div class="form_create-account">
+            <h3>Create an account</h3>
+            <form class="form" action="#">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="password">
+                <input type="radio">
+            </form>
+            <div class="btn_create">
+                <a href=""><button>CREATE</button></a>
+            </div>
+            <p>To withdraw your consent (including any consent you have previously given) and to learn more about your rights and how to exercise them, please read the Privacy Policy.</p>
+        </div>
+    </div>
 </body>
 </html>

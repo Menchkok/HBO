@@ -18,6 +18,11 @@
         font-size:15px;
         background-color: $blue;
         font-weight: 700;
+        &:hover{
+            background:$orange;
+            outline: 2px solid $blue;
+            color:$black;
+        }
     }
     
 }
