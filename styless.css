@@ -1,12 +1,12 @@
 .container {
-  max-width: 1920px;
-  max-height: 1550px;
+  margin-top: 24px;
+  margin-left: 324px;
 }
 
 .header {
+  width: 1274px;
   display: flex;
   justify-content: space-between;
-  margin: 24px 304px 26px 324px;
   align-items: center;
 }
 .header-button {
@@ -27,6 +27,8 @@
   display: flex;
   -moz-column-gap: 115px;
        column-gap: 115px;
+  margin-top: -1px;
+  margin-left: 19px;
 }
 .menu a:hover {
   text-decoration: underline;
@@ -48,20 +50,16 @@
   opacity: 75%;
 }
 
-.hero {
-  margin: 0px 304px 0px 324px;
-  text-align: center;
-}
-
 .slider-item__content {
   margin-top: -260px;
+  margin-left: 309px;
 }
 
 .silder-item__slider {
   width: 500px;
   height: 1px;
-  margin-top: 26px;
-  margin-left: 386px;
+  margin-top: 28px;
+  margin-left: 388px;
   opacity: 50%;
   background: gray;
 }
@@ -74,6 +72,7 @@
 .item__btn {
   width: 198px;
   margin-top: 19px;
+  margin-left: 532px;
 }
 .item__btn:hover {
   border-radius: 50px;
@@ -83,19 +82,19 @@
 
 .main {
   margin-top: 44px;
-  margin-left: 323px;
 }
 
 .main-slider__img {
   display: flex;
   -moz-column-gap: 24px;
        column-gap: 24px;
+  position: absolute;
 }
 
 .main-slider__img > a {
+  border-radius: 12px;
   width: 210px;
   height: 300px;
-  border-radius: 12px;
 }
 .main-slider__img > a:hover {
   background-image: url("./images-main-second/hover.png");
@@ -130,7 +129,7 @@
 }
 
 .footer {
-  padding: 81px 320px 0px 324px;
+  margin-top: 405px;
 }
 
 .footer-slider__img img {
@@ -142,6 +141,7 @@
 .footer-slider__subscription-one {
   margin-left: 377px;
   margin-top: 24px;
+  margin-left: 384px;
   box-sizing: border-box;
   position: absolute;
 }
@@ -154,7 +154,7 @@
 }
 
 .footer-slider__subscription-three {
-  margin-left: 762px;
+  margin-left: 770px;
   margin-top: 24px;
   opacity: 0.1;
   position: absolute;

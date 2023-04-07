@@ -1,15 +1,15 @@
 @import "colors.scss";
 @import "styles/mixins.scss";
 .container{
-    max-width: 1920px;
-    max-height: 1550px;
+    margin-top: 24px;
+    margin-left: 324px;
 }
 
 .header{
-    
+    width: 1274px;
+
     display: flex;
     justify-content: space-between;
-    margin: 24px 304px 26px 324px;
     align-items: center;
     &-button{
         border-radius: 12px;
@@ -29,8 +29,8 @@
 .menu{
     display: flex;
     column-gap:115px;
-    
-    
+    margin-top: -1px;
+    margin-left: 19px;
     a{
         &:hover{
             text-decoration: underline;
@@ -50,21 +50,16 @@
     font-size: 13px;
     opacity: 75%;
 }
-
-.hero{
-    margin: 0px 304px 0px 324px;
-    text-align: center;
-    
-}
 .slider-item__content{
     margin-top: -260px;
+    margin-left: 309px;
 }
 
 .silder-item__slider{
     width: 500px;
     height: 1px;
-    margin-top: 26px;
-    margin-left: 386px;
+    margin-top: 28px;
+    margin-left: 388px;
     opacity: 50%;
     background:gray;
     &:hover{
@@ -78,6 +73,7 @@
 .item__btn{
     width: 198px;
     margin-top: 19px;
+    margin-left: 532px;
     &:hover{
         border-radius:50px;
         background-color:$orange;
@@ -87,19 +83,19 @@
 }
 .main{
     margin-top: 44px;
-    margin-left: 323px;
     
 }
 .main-slider__img{
     display: flex;
     column-gap:24px;
+    position: absolute;
     
 }
 
 .main-slider__img>a{
+    border-radius:12px;
     width: 210px;
     height: 300px;
-    border-radius:12px;
     &:hover{
         background-image:url("./images-main-second/hover.png");
     }
@@ -126,44 +122,31 @@
     background-image:url("./images-main-second/image 3.png");
 };
 .footer{
-    padding: 81px 320px 0px 324px;
-
+    margin-top: 405px;
 }
 .footer-slider__img img{
     width: 502px;
     height: 296px;
     margin-top: 0px;
     
-    
 }
 
 .footer-slider__subscription-one{
     margin-left: 377px;
     margin-top: 24px;
+    margin-left: 384px;
     box-sizing: border-box;
-    position: absolute;
-    
-    
-    
-    
+    position: absolute; 
 }
 .footer-slider__subscription-two{
     margin-left: 0px;
     margin-top: 24px;
     opacity: 0.1;
     position: absolute;
-    
-    
-
-    
-    
 }
 .footer-slider__subscription-three{
-    margin-left: 762px;
+    margin-left: 770px;
     margin-top: 24px;
     opacity: 0.1;
-    position: absolute;
-    
-
-    
+    position: absolute; 
 }
