@@ -4,14 +4,17 @@
 body{
     background-image:url("./images-header/7886115 1.png");
 }
+.wrapper{
+    max-width: 867.44px;
+}
 .container{
     margin-top: 24px;
     margin-left: 324px;
 }
 
+
 .header{
     width: 1274px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,25 +62,6 @@ body{
     font-size: 13px;
     opacity: 75%;
 }
-.slider-item__content{
-    margin-top: -260px;
-    margin-left: 309px;
-}
-
-.silder-item__slider{
-    width: 500px;
-    height: 1px;
-    margin-top: 28px;
-    margin-left: 388px;
-    opacity: 50%;
-    background:gray;
-    &:hover{
-        background-color:$orange;
-        opacity: 50%;
-        width: 100px;
-        
-    }
-}
 
 .item__btn{
     width: 198px;
@@ -93,11 +77,14 @@ body{
 
 .container_signup{
     margin-top: 63px;
+    margin-left: 500px;
+}
+.container__signup{
+    width: 870px;
     text-align: center;
 }
 
 .container_select_subscriptions{
-    margin-left: 440px;
     display: flex;
     gap:35px
 }
@@ -105,6 +92,7 @@ body{
 .select_montly{
     width: 502px;
     height: 250px;
+    border-radius:12px;
     background-image:url("./images-header/Rectangle 14.png");
     &:hover{
         border-radius:12px;
@@ -117,10 +105,28 @@ body{
 .select_annal{
     width: 502px;
     height: 250px;
+    border-radius:12px;
     background-image:url("./images-header/Rectangle 14.png");
     &:hover{
         border-radius:12px;
         outline:solid 2px white;
         background:url("./images-header/Vector.png")no-repeat;
     }
+}
+
+.choose_btn{
+    border-radius:7px;
+    background-color:$orangeTwo;
+    width: 93px;
+    height: 40px;
+    padding:3px;
+    font-size: 18px;
+    &:hover{
+        border-radius:7px;
+        outline:solid 2px white;
+    }
+};
+
+.form{
+    
 }
